@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@types/superagent": "^4.1.13"
+    "@types/superagent": "^4.1.13",
+    "prettier": "^2.5.1"
   }
 }
