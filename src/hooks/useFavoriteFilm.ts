@@ -4,7 +4,7 @@ const FAVORITE_FILMS = 'favorite-films';
 
 export const useFavoriteFilm = () => {
     const [favoriteFilms, setFavoriteFilms] = useState<(number | string)[]>(
-        JSON.parse(localStorage.getItem(FAVORITE_FILMS) || '{}')
+        JSON.parse(localStorage.getItem(FAVORITE_FILMS) || '[]')
     );
 
     const onChangeListFilms = useCallback(
