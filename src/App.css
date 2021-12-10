@@ -31,10 +31,24 @@ body {
 
 .films-list {
     width: 30%;
-    margin: 20px;
+    padding: 20px;
 }
 
 .film-description {
     width: 70%;
-    margin: 20px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .films {
+        flex-direction: column;
+    }
+
+    .films-list {
+        width: 100%;
+    }
+
+    .film-description {
+        width: 100%;
+    }
 }
